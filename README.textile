@@ -1,0 +1,19 @@
+h2. MuseScore.com API Client Wrapper Library for Java/Android 
+
+h3. Introduction
+
+API Wrapper for MuseScore.com written in Java (not with support for authentication using OAuth yet). Modelled to be exactly like "Google APIs Client Library for Java 1.6":http://code.google.com/p/google-api-java-client/ . It's being used with JSON a lot, but it is fairly abstracted from whatever tech you want to use.
+
+Dependencies are the same as the Google APIs Client Library for Java. One extra dependency is the "general API package from Collectionista":https://code.launchpad.net/~pjv/collectionista/general-api
+
+The best demo for this library is Collectionista, an Android app collection manager with an extension for sheet music, from which it was extracted. Code can be found at "Launchpad":https://code.launchpad.net/collectionista. Have a look at "lp:~pjv/collectionista/sheetmusic":https://code.launchpad.net/~pjv/collectionista/sheetmusic . Then copy net.lp.collectionista.adapters.MuseScoreSheetMusicStore into your project (you'll need to change it a lot or roll your own). This is where you choose the technologies you'll use etc. The using class is net.lp.collectionista.ui.activities.items.sheet.music.MusicSheetItemSearchAddWindow.
+
+If you're new to OAuth I'd recommend to have a look at the "official docs":http://oauth.net and "the last video on using OAuth with Android (which says it's basically impossible in 2011)":http://www.youtube.com/watch?v=9fBcrzA-hWY 
+
+Got questions or need support? Don't hesitate to contact us!
+This library and Collectionista: pjv (ezelspinguin at gmail dot com), Thomas Stockx
+MuseScore: Thomas and Lasconic
+
+h3. Getting started
+
+See the wiki page "Getting started":http://wiki.github.com/musescore-com/musescore-api-java-client/getting-started for more information.
