@@ -2,44 +2,44 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="libs/google-http-client-1.6.0-beta.jar" sourcepath="libs/reference/google-http-client-1.6.0-beta-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/google-http-client-1.6.0-beta.jar" sourcepath="libs2/reference/google-http-client-1.6.0-beta-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/google-http-client-1.6.0-beta-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/google-http-client-1.6.0-beta-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/google-http-client-extensions-android2-1.6.0-beta.jar" sourcepath="libs/reference/google-http-client-extensions-android2-1.6.0-beta-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/google-http-client-extensions-android2-1.6.0-beta.jar" sourcepath="libs2/reference/google-http-client-extensions-android2-1.6.0-beta-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/google-http-client-extensions-android2-1.6.0-beta-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/google-http-client-extensions-android2-1.6.0-beta-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/google-http-client-extensions-android3-1.6.0-beta.jar" sourcepath="libs/reference/google-http-client-extensions-android3-1.6.0-beta-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/google-http-client-extensions-android3-1.6.0-beta.jar" sourcepath="libs2/reference/google-http-client-extensions-android3-1.6.0-beta-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/google-http-client-extensions-android3-1.6.0-beta-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/google-http-client-extensions-android3-1.6.0-beta-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/google-api-client-1.6.0-beta.jar" sourcepath="libs/reference/google-api-client-1.6.0-beta-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/google-api-client-1.6.0-beta.jar" sourcepath="libs2/reference/google-api-client-1.6.0-beta-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/google-api-client-1.6.0-beta-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/google-api-client-1.6.0-beta-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/google-api-client-extensions-android2-1.6.0-beta.jar" sourcepath="libs/reference/google-api-client-extensions-android2-1.6.0-beta-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/google-api-client-extensions-android2-1.6.0-beta.jar" sourcepath="libs2/reference/google-api-client-extensions-android2-1.6.0-beta-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/google-api-client-extensions-android2-1.6.0-beta-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/google-api-client-extensions-android2-1.6.0-beta-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/google-api-services-books-v1-1.3.0-beta.jar" sourcepath="libs/reference/google-api-services-books-v1-1.3.0-beta-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/google-api-services-books-v1-1.3.0-beta.jar" sourcepath="libs2/reference/google-api-services-books-v1-1.3.0-beta-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/google-api-services-books-v1-1.3.0-beta-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/google-api-services-books-v1-1.3.0-beta-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/gson-1.7.1.jar" sourcepath="libs/reference/gson-1.7.1-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/gson-1.7.1.jar" sourcepath="libs2/reference/gson-1.7.1-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/gson-1.7.1-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/gson-1.7.1-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/guava-r09.jar" sourcepath="libs/reference/guava-r09-sources.jar">
+	<classpathentry exported="true" kind="lib" path="libs2/guava-r09.jar" sourcepath="libs2/reference/guava-r09-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs/reference/guava-r09-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Collectionista/libs2/reference/guava-r09-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/Collectionista General API Java Client Library"/>
