@@ -8,7 +8,7 @@ Dependencies are the same as the Google APIs Client Library for Java. One extra 
 
 The best demo for this library is Collectionista, an Android app collection manager with an extension for sheet music, from which it was extracted. Code can be found at "Launchpad":https://code.launchpad.net/collectionista. Have a look at "lp:~pjv/collectionista/sheetmusic":https://code.launchpad.net/~pjv/collectionista/sheetmusic . Then copy net.lp.collectionista.adapters.MuseScoreSheetMusicStore into your project (you'll need to change it a lot or roll your own). This is where you choose the technologies you'll use etc. The using class is net.lp.collectionista.ui.activities.items.sheet.music.MusicSheetItemSearchAddWindow.
 
-If you're new to OAuth I'd recommend to have a look at the "official docs":http://oauth.net and "the last video on using OAuth with Android (which says it's basically impossible in 2011)":http://www.youtube.com/watch?v=9fBcrzA-hWY 
+If you're new to OAuth I'd recommend to have a look at the "official docs":http://oauth.net and "the last video on using OAuth with Android":http://www.youtube.com/watch?v=9fBcrzA-hWY which says it's basically impossible in 2011.
 
 Got questions or need support? Don't hesitate to contact us!
 This library and Collectionista: pjv (ezelspinguin at gmail dot com), Thomas Stockx
