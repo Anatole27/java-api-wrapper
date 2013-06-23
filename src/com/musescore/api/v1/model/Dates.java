@@ -72,9 +72,7 @@ public class Dates implements Result{
 	}
 
 	/**
-	 * @param pages
-	 * @param title
-	 * @param composer
+	 * @param posted
 	 */
 	public Dates(long posted) {
 		super();

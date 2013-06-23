@@ -39,8 +39,6 @@
 
 package com.musescore.api.v1.model;
 
-import java.util.List;
-
 import net.lp.collectionista.apis.general.Result;
 
 import com.google.api.client.http.HttpHeaders;
@@ -50,23 +48,10 @@ import com.google.api.client.util.Key;
  * @author pjv
  *
  */
-public class Metadata implements Result{
+public class PartDeeper implements Result{
 
-	@Key("pages")
-	private int pages;
-	@Key("title")
-	private String title;
-	@Key("composer")
-	private String composer;
-	@Key("measures")
-	private int measures;
-	@Key("duration")
-	private int duration;
-	@Key("keysig")
-	private int keySignature;
-
-	@Key("parts")
-	private List<Part> parts;
+	@Key("name")
+	private String name;
 
 	/**
 	 * The HTTP headers that were returned with the server response or null.
@@ -81,127 +66,33 @@ public class Metadata implements Result{
 	/**
 	 * 
 	 */
-	public Metadata() {
+	public PartDeeper() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
 	/**
-	 * @param pages
-	 * @param title
-	 * @param composer
-	 * @param measures
-	 * @param duration
-	 * @param keySignature
-	 * @param part
+	 * @param name
 	 */
-	public Metadata(int pages, String title, String composer, int measures, int duration, int keySignature, List<Part> parts) {
+	public PartDeeper(String name) {
 		super();
-		this.pages = pages;
-		this.title = title;
-		this.composer = composer;
-		this.measures = measures;
-		this.duration = duration;
-		this.keySignature = keySignature;
-		this.parts = parts;
+		this.name = name;
 	}
 
 	/**
-	 * @return the pages
+	 * @return the name
 	 */
-	public int getPages() {
-		return pages;
+	public String getName() {
+		return name;
 	}
 
 	/**
-	 * @param pages the pages to set
+	 * @param name the name to set
 	 */
-	public void setPages(int pages) {
-		this.pages = pages;
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	/**
-	 * @return the title
-	 */
-	public String getTitle() {
-		return title;
-	}
-
-	/**
-	 * @param title the title to set
-	 */
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
-	/**
-	 * @return the composer
-	 */
-	public String getComposer() {
-		return composer;
-	}
-
-	/**
-	 * @param composer the composer to set
-	 */
-	public void setComposer(String composer) {
-		this.composer = composer;
-	}
-
-	/**
-	 * @return the measures
-	 */
-	public int getMeasures() {
-		return measures;
-	}
-
-	/**
-	 * @param measures the measures to set
-	 */
-	public void setMeasures(int measures) {
-		this.measures = measures;
-	}
-
-	/**
-	 * @return the duration
-	 */
-	public int getDuration() {
-		return duration;
-	}
-
-	/**
-	 * @param duration the duration to set
-	 */
-	public void setDuration(int duration) {
-		this.duration = duration;
-	}
-
-	/**
-	 * @return the keySignature
-	 */
-	public int getKeySignature() {
-		return keySignature;
-	}
-
-	/**
-	 * @param keySignature the keySignature to set
-	 */
-	public void setKeySignature(int keySignature) {
-		this.keySignature = keySignature;
-	}
-
-	/**
-	 * @return the parts
-	 */
-	public List<Part> getParts() {
-		return parts;
-	}
-
-	/**
-	 * @param parts the parts to set
-	 */
-	public void setParts(List<Part> parts) {
-		this.parts = parts;
-	}
+	
+	
 
 }
