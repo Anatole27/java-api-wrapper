@@ -19,6 +19,9 @@ hs_err_pid*
 artworkdesigns/
 artworkdesigns/*
 *.zip
+libs
+libs/
+libs/*
 libs/admob-sdk-android
 libs/FlurryAndroidSDK
 libs/GoogleAnalyticsAndroid
