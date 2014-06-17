@@ -10,3 +10,8 @@
     </filter>
     <filter name="WriteProtectedFiles" enabled="true"/>
 </fileset-config>
+<module name="Checker">
+    <module name="com.harukizaemon.simian.SimianCheck"/>
+        <property name="language" value="java"/>
+    <module/>
+</module>
