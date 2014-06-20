@@ -240,8 +240,9 @@ public class MuseScore extends GoogleClient {
        *
        * @return the {@link ScoreResponse} response
        * @throws IOException if the request fails
+       * @throws IllegalArgumentException if problem with parser ot content type
        */
-      public com.musescore.api.v1.model.ScoreResponse execute() throws IOException {
+      public com.musescore.api.v1.model.ScoreResponse execute() throws IOException, IllegalArgumentException {
         HttpResponse response = executeUnparsed();
 
         com.musescore.api.v1.model.Score singleScore = response.parseAs(
@@ -293,8 +294,9 @@ public class MuseScore extends GoogleClient {
        *
        * @return the {@link SearchResponse} response
        * @throws IOException if the request fails
+       * @throws IllegalArgumentException if problem with parser ot content type
        */
-      public com.musescore.api.v1.model.ScoreResponse execute() throws IOException {
+      public com.musescore.api.v1.model.ScoreResponse execute() throws IOException, IllegalArgumentException {
         HttpResponse response = executeUnparsed();
 
         com.musescore.api.v1.model.Score[] scoreList = response.parseAs(
